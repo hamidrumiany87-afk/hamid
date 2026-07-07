@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+android {
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 35
+        compileSdk 34
+        versionCode 449
+        versionName "4.4.9"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        resourceConfigurations += ['ar', 'ca', 'de', 'en', 'es', 'fa', 'fr', 'he', 'in', 'iw', 'ja', 'nb-rNO', 'oc', 'pl', 'pt', 'pt-rBR', 'ru', 'ta', 'tr', 'uk', 'zh', 'zh-rTW']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
+    }
+
+    flavorDimensions += "store"
+
+    productFlavors {
+        google {
+            dimension 'store'
+            applicationId 'app.meshenger'
+        }
+        fdroid {
+            dimension 'store'
+            applicationId 'd.d.meshenger'
+        }
+    }
+
+    namespace 'd.d.meshenger'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation('com.journeyapps:zxing-android-embedded:3.6.0') { transitive = false }
+    implementation 'com.google.zxing:core:3.3.3'
+    implementation 'com.github.joshjdevl.libsodiumjni:libsodium-jni-aar:2.0.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.viewpager2:viewpager2:1.1.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation 'im.conversations.webrtc:webrtc-android:119.0.0'
+    //implementation 'ch.threema:webrtc-android:123.0.0'
+    //implementation files('../webrtc/libwebrtc-123.0.0.aar')
+}
