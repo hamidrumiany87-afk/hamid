@@ -1,0 +1,6 @@
+{
+  "name": "HR-SIP",
+  "description": "Peer-to-Peer Mesh Voice and Video Calling app",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
