@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeNameLabels">
+        <item>@string/theme_label_fire_red</item>
+        <item>@string/theme_label_grass_green</item>
+        <item>@string/theme_label_sky_blue</item>
+        <item>@string/theme_label_night_grey</item>
+    </string-array>
+
+    <string-array name="themeNameValues">
+        <item>fire_red</item>
+        <item>grass_green</item>
+        <item>sky_blue</item>
+        <item>night_grey</item>
+    </string-array>
+
+    <string-array name="nightModeLabels">
+        <item>@string/night_mode_label_system</item>
+        <item>@string/night_mode_label_on</item>
+        <item>@string/night_mode_label_off</item>
+    </string-array>
+
+    <string-array name="nightModeValues">
+        <item>auto</item>
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+
+    <string-array name="speakerphoneModeLabels">
+        <item>@string/speakerphone_mode_label_auto</item>
+        <item>@string/speakerphone_mode_label_enabled</item>
+        <item>@string/speakerphone_mode_label_disabled</item>
+    </string-array>
+
+    <string-array name="speakerphoneModeValues">
+        <item>auto</item>
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+
+    <string-array name="settingsModeLabels">
+        <item>@string/settings_mode_label_basic</item>
+        <item>@string/settings_mode_label_advanced</item>
+        <item>@string/settings_mode_label_expert</item>
+    </string-array>
+
+    <string-array name="settingsModeValues">
+        <item>basic</item>
+        <item>advanced</item>
+        <item>expert</item>
+    </string-array>
+
+    <string-array name="videoDegradationModeLabels">
+        <item>@string/settings_video_degradation_mode_label_balanced</item>
+        <item>@string/settings_video_degradation_mode_label_maintain_resolution</item>
+        <item>@string/settings_video_degradation_mode_label_maintain_framerate</item>
+        <item>@string/settings_video_degradation_mode_label_disabled</item>
+    </string-array>
+
+    <string-array name="videoDegradationModeValues">
+        <item>balanced</item>
+        <item>maintain_resolution</item>
+        <item>maintain_framerate</item>
+        <item>disabled</item>
+    </string-array>
+
+    <string-array name="cameraResolutionLabels">
+        <item>@string/settings_camera_resolution_auto</item>
+        <item>3840x2160</item>
+        <item>2560x1440</item>
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>1024x600</item>
+        <item>800x600</item>
+        <item>640x480</item>
+        <item>320x240</item>
+    </string-array>
+
+    <string-array name="cameraResolutionValues">
+        <item>auto</item>
+        <item>3840x2160</item>
+        <item>2560x1440</item>
+        <item>1920x1080</item>
+        <item>1280x720</item>
+        <item>1024x600</item>
+        <item>800x600</item>
+        <item>640x480</item>
+        <item>320x240</item>
+    </string-array>
+
+    <string-array name="cameraFramerateLabels">
+        <item>@string/settings_camera_framerate_auto</item>
+        <item>60 fps</item>
+        <item>50 fps</item>
+        <item>40 fps</item>
+        <item>30 fps</item>
+        <item>20 fps</item>
+        <item>15 fps</item>
+        <item>10 fps</item>
+        <item>5 fps</item>
+        <item>1 fps</item>
+    </string-array>
+
+    <string-array name="cameraFramerateValues">
+        <item>auto</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="audioBitrateMaxLabels">
+        <item>@string/settings_audio_bitrate_max_auto</item>
+        <item>256 Kbps</item>
+        <item>128 Kbps</item>
+        <item>64 Kbps</item>
+        <item>40 Kbps</item>
+        <item>20 Kbps</item>
+        <item>12 Kbps</item>
+        <item>8 Kpps</item>
+    </string-array>
+
+    <string-array name="audioBitrateMaxValues">
+        <item>auto</item>
+        <item>256</item>
+        <item>128</item>
+        <item>64</item>
+        <item>40</item>
+        <item>20</item>
+        <item>12</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="videoBitrateMaxLabels">
+        <item>@string/settings_video_bitrate_max_auto</item>
+        <item>20 Mbps</item>
+        <item>10 Mbps</item>
+        <item>5 Mbps</item>
+        <item>2 Mbps</item>
+        <item>1 Mbps</item>
+        <item>0.5 Mbps</item>
+        <item>0.2 Mbps</item>
+        <item>0.01 Mbps</item>
+    </string-array>
+
+    <string-array name="videoBitrateMaxValues">
+        <item>auto</item>
+        <item>20000</item>
+        <item>10000</item>
+        <item>5000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>200</item>
+        <item>10</item>
+    </string-array>
+</resources>
